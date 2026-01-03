@@ -25,9 +25,9 @@ Ensure you have the following installed before starting:
 2. **Open PowerShell** (Right-click "Start" -> Terminal/PowerShell).
 3. **Navigate to the folder**:
    ```powershell
-   cd "C:\Your\Path\To\FloofyBoostV2"
+   cd "C:\Your\Path\To\FloofyBoost v1.7.3 BETA"
    ```
-   *(Replace the path above with your actual folder location)*
+   *(Replace the path above with your actual folder location and name if you decided to rename it)*
 
 ### 3. Install Dependencies
 Run the following command to install all necessary libraries:
@@ -51,8 +51,8 @@ npm run electron-build
 
 ### 5. Run the App
 After the build completes, open the `dist` folder. You will find:
-- **`FloofyBoost Setup 1.7.3.exe`** (Installer)
-- **`FloofyBoost-1.7.3.exe`** (Portable Version)
+- **`FloofyBoost Setup 1.7.3 BETA.exe`** (Installer)
+- **`FloofyBoost-1.7.3 BETA.exe`** (Portable Version)
 
 ---
 
