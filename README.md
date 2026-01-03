@@ -9,7 +9,7 @@ FloofyBoost is a powerful Electron-based Windows desktop application for gaming 
 
 ---
 
-## 🚀 Thorough Installation Guide
+## 🚀 Installation Guide
 
 Follow these steps carefully to set up FloofyBoost on your Windows machine.
 
