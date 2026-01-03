@@ -86,9 +86,9 @@ After the build completes, open the `dist` folder. You will find:
 
 ### Runtime Issues (After opening the EXE)
 - **App shows in Task Manager but no window appears**: 
-  1 . End all FloofyBoost tasks.
-  2 . Delete `%APPDATA%\FloofyBoost` folder.
-  3 . Restart the app.
+    1. End all FloofyBoost tasks.
+    2. Delete `%APPDATA%\FloofyBoost` folder.
+    3. Restart the app.
 - **White Screen on launch**: Frontend build failed. Run `npm run build` and check for errors before running the electron-build again.
 - **Tweaks not applying**: Ensure you are running the app as **Administrator**. Some tweaks require Registry access.
 - **Installer hangs at 99%**: Antivirus is likely scanning the final executable. Disable real-time protection temporarily or use the Portable version.
