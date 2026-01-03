@@ -91,13 +91,13 @@ npm --version
 
 If you have the project downloaded:
 ```bash
-cd C:\Users\YourUsername\Desktop\FloofyBoostV2
+cd C:\Users\YourUsername\Desktop\FloofyBoost v1.7.3 BETA
 ```
 
 Or clone via Git:
 ```bash
 git clone <repository-url>
-cd FloofyBoostV2
+cd <name>
 ```
 
 ### 2. Install Dependencies
