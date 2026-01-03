@@ -9,7 +9,7 @@ FloofyBoost is a powerful Electron-based Windows desktop application for gaming 
 
 ---
 
-## 🚀 Installation Guide
+## 🚀 Thorough Installation Guide
 
 Follow these steps carefully to set up FloofyBoost on your Windows machine.
 
@@ -25,9 +25,9 @@ Ensure you have the following installed before starting:
 2. **Open PowerShell** (Right-click "Start" -> Terminal/PowerShell).
 3. **Navigate to the folder**:
    ```powershell
-   cd "C:\Your\Path\To\FloofyBoost v1.7.3 BETA"
+   cd "C:\Your\Path\To\FloofyBoostV2"
    ```
-   *(Replace the path above with your actual folder location and name if you decided to rename it)*
+   *(Replace the path above with your actual folder location)*
 
 ### 3. Install Dependencies
 Run the following command to install all necessary libraries:
@@ -51,8 +51,8 @@ npm run electron-build
 
 ### 5. Run the App
 After the build completes, open the `dist` folder. You will find:
-- **`FloofyBoost Setup 1.7.3 BETA.exe`** (Installer)
-- **`FloofyBoost-1.7.3 BETA.exe`** (Portable Version)
+- **`FloofyBoost Setup 1.7.3.exe`** (Installer)
+- **`FloofyBoost-1.7.3.exe`** (Portable Version)
 
 ---
 
@@ -86,9 +86,9 @@ After the build completes, open the `dist` folder. You will find:
 
 ### Runtime Issues (After opening the EXE)
 - **App shows in Task Manager but no window appears**: 
-    1. End all FloofyBoost tasks.
-    2. Delete `%APPDATA%\FloofyBoost` folder.
-    3. Restart the app.
+  1. End all FloofyBoost tasks.
+  2. Delete `%APPDATA%\FloofyBoost` folder.
+  3. Restart the app.
 - **White Screen on launch**: Frontend build failed. Run `npm run build` and check for errors before running the electron-build again.
 - **Tweaks not applying**: Ensure you are running the app as **Administrator**. Some tweaks require Registry access.
 - **Installer hangs at 99%**: Antivirus is likely scanning the final executable. Disable real-time protection temporarily or use the Portable version.
